@@ -1,76 +1,51 @@
 * {
-    box-sizing:content-box;
-  }
-  
-  body {
-    height: 100vh;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Orbitron', sans-serif;
-    background-color: rgb(26, 96, 153);
-    /* background-image: url('../images/starry-sky.jpg');
-    background-size: cover;
-    background: no-repeat center center cover; */
-  }
-  header {
-  font-size: 5vmin;
-  letter-spacing: 1vmin;
-  color: rgb(215, 112, 255);
-  }
-
-  h1 {
-      color: rgb(215, 112, 255);
-  }
-  
-/* img#blue-gorilla {
-    max-width: 25%;
-    max-height: 25%;
+  box-sizing:content-box;
 }
 
-img#red-rhino{
-    max-width: 25%;
-    max-height: 25%;
-} */
-
-  td {
-    height: 20vmin;
-    width: 20vmin;
-    margin: 0 auto;
-  }
-  
-  td div {
-    margin: 0 auto;
-    height: 20vmin;
-    width: 20vmin;
-    pointer-events: none;
-    /* background-size: contain; */
-    /* background-image: none; */
-  
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Orbitron', sans-serif;
+  background-color: rgb(26, 96, 153);  
 }
-   /* td div img {
-    max-width: 20vmin;
-    max-height: 20vmin;
-  } */
-
-  button {
-    margin-top: 40px;
-    padding: 20px;
-    background-color: rgb(21, 77, 122);
+header {
+font-size: 5vmin;
+letter-spacing: 1vmin;
+color: rgb(215, 112, 255);
+}
+h1 {
     color: rgb(215, 112, 255);
-    border-radius: 10px;
-    font-size: 14px;
-  }
-
-  tr td:nth-child(2) {
-    border-left: 6px solid rgb(119, 184, 236);
-    border-right: 6px solid rgb(119, 184, 236);
-  }
-  
-  tr:nth-child(2) td {
-    border-top: 6px solid rgb(119, 184, 236);
-    border-bottom: 6px solid rgb(119, 184, 236);
-  }
- 
+}
+td {
+  height: 20vmin;
+  width: 20vmin;
+  margin: 0 auto;
+}
+ td div {
+  margin: 0 auto;
+  height: 20vmin;
+  width: 20vmin;
+  pointer-events: none;
+  background-position: center;
+  background-size: cover;
+} 
+button {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: rgb(21, 77, 122);
+  color: rgb(215, 112, 255);
+  border-radius: 10px;
+  font-size: 14px;
+}
+tr td:nth-child(2) {
+  border-left: 6px solid rgb(119, 184, 236);
+  border-right: 6px solid rgb(119, 184, 236);
+}
+tr:nth-child(2) td {
+  border-top: 6px solid rgb(119, 184, 236);
+  border-bottom: 6px solid rgb(119, 184, 236);
+}
